@@ -6,9 +6,9 @@ import (
 	"github.com/alexlapinski/menu-planner/pkg/inventory"
 )
 
-func execute() {
+func Execute() {
 	fmt.Println("Food-Plan Generator")
 	fmt.Println("Reading Inventory")
 
-	inventory.Read("inventory.json")
+	inventory.Read("./assets/inventory.json")
 }
